@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showMessage() {
+            alert("Hello there!");
+        }
+    </script>
+    <style>
+        button {
+            background-color: #4CAF50;
+            height: 30px;
+            width: 100px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        button:hover {
+            background-color: red;
+            border: 5px solid black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button onclick="showMessage()">Click Me!</button>
+    </div>
+</body>
+</html>
